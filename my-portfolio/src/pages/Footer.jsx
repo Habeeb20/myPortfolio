@@ -4,6 +4,7 @@ import { EnvelopeIcon, PhoneIcon, MapPinIcon } from "@heroicons/react/24/outline
 
 const services = [
   "Full-Stack Web Development",
+  "mobile App development",
   "Frontend & UI/UX Design",
   "Fintech & Payment Integration",
   "Real-time Applications (Chat, Tracking)",
@@ -13,7 +14,8 @@ const services = [
 
 export default function Footer() {
   return (
-    <footer className="relative bg-gradient-to-b from-bg-dark to-black text-white pt-20 pb-12 overflow-hidden">
+    <section id="contact">
+<footer className="relative bg-gradient-to-b from-bg-dark to-black text-white pt-20 pb-12 overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div className="absolute -bottom-40 -right-40 w-[40rem] h-[40rem] bg-primary/20 rounded-full blur-3xl" />
@@ -23,10 +25,10 @@ export default function Footer() {
         {/* Brand & About */}
         <div className="md:col-span-4">
           <h3 className="text-3xl font-extrabold bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent mb-4">
-            Waliyu
+            Habeeb Waliyu
           </h3>
           <p className="text-gray-400 mb-6 max-w-md">
-            Crafting modern, scalable, and user-centered web applications that help businesses grow in the digital age.
+            Crafting modern, scalable, and user-centered web and mobile applications that help businesses grow in the digital age.
           </p>
           <div className="flex gap-5">
             {/* Add your social icons here */}
@@ -52,11 +54,11 @@ export default function Footer() {
           <div className="space-y-5 text-gray-300">
             <a href="mailto:your.email@example.com" className="flex items-center gap-3 hover:text-primary transition-colors">
               <EnvelopeIcon className="w-5 h-5" />
-              your.email@example.com
+              Ademolawaliyu1@gmail.com
             </a>
             <a href="tel:+234XXXXXXXXXX" className="flex items-center gap-3 hover:text-primary transition-colors">
               <PhoneIcon className="w-5 h-5" />
-              +234 XXX XXX XXXX
+              +234 816 648 9562
             </a>
             <div className="flex items-center gap-3">
               <MapPinIcon className="w-5 h-5" />
@@ -75,8 +77,10 @@ export default function Footer() {
       </div>
 
       <div className="relative mt-16 pt-10 border-t border-gray-800 text-center text-sm text-gray-500">
-        <p>© {new Date().getFullYear()} Waliyu. Built with passion & code.</p>
+        <p>© {new Date().getFullYear()} Habeeb Waliyu. Built with passion & code.</p>
       </div>
     </footer>
+    </section>
+    
   );
 }

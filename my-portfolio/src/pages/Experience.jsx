@@ -63,7 +63,7 @@ const item = {
 
 export default function Experience() {
   return (
-    <section id="experience" className="relative py-28 bg-bg-light dark:bg-bg-dark">
+    <section id="about" className="relative py-28 bg-bg-light dark:bg-bg-dark">
       <div className="absolute inset-0 opacity-20 pointer-events-none">
         <div className="absolute top-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       </div>

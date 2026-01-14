@@ -119,8 +119,8 @@ export const projects = [
     id: 8,
    title: "E-Cars",
     description:
-      "Ride-hailing app where users can order rides, suggest prices, negotiate with drivers in real-time chat, hire drivers, rent vehicles, and send deliveries.",
-    shortDesc: "Flexible ride-hailing with price negotiation & delivery",
+      "it is a platform meant for car dealers to connect with buyers, it  allows the users to value their assets, connect with verified car part sellers, report a stolen vehicle, report a stolen vehicles, compare car features, and also allows car auctioning",
+    shortDesc: "a platform for car dealers to connect with buyers",
     image: ecars,
     image2: ecars2,
     tech: ["React", "Node.js", "Tailwind CSS", "Framer Motion", "Socket.IO"],

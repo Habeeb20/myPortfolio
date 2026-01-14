@@ -2,7 +2,9 @@
 import express from 'express';
 import nodemailer from 'nodemailer';
 import Contact from '../models/contact.js'; // ← new import
+import dotenv from "dotenv"
 
+dotenv.config()
 const router = express.Router();
 
 // Nodemailer setup (same as before)
