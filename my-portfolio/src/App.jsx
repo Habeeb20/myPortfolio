@@ -8,7 +8,7 @@ import Footer from './pages/Footer'
 const App = () => {
   return (
     <div>
-      <div className="min-h-screen bg-bg-light dark:bg-bg-dark text-text-light dark:text-text-dark transition-colors duration-300">
+<div className="min-h-screen bg-bg-light dark:bg-bg-dark text-text-light dark:text-text-dark transition-colors duration-300 overflow-x-hidden">
   <Navbar />
   <Hero/>
   <Projects />
