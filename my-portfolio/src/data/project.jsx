@@ -1,34 +1,35 @@
 
 
 // data/projects.js
-import screenshot from "../assets/screenshot.jpeg";
+import screenshot from "../assets/joblink1.png";
 import expense1 from "../assets/expense1.png";
 import expense2 from "../assets/expense2.png";
-import chowdeck from "../assets/chowdeck1.png";
-import chowdeck2 from "../assets/chowdeck2.png";
+import chowdeck from "../assets/estores2.png";
+import chowdeck2 from "../assets/estores1.png";
 import flexipay from "../assets/flexpay1.png";
 import flexipay2 from "../assets/flexipay2.png"; // ← assuming you have two different images
 import wheelitin from "../assets/wheelitin.png";
-import ejob from "../assets/ejob2.png";
-import hr from "../assets/hrImage.jpeg";           // ← added .png (most likely)
+import ejob from "../assets/joblink2.png";
+import hr from "../assets/school1.png";           // ← added .png (most likely)
+import hr2 from "../assets/school2.png";           // ← added .png (most likely)
 import bluewave from "../assets/bluewaves.png";
 import bluewave2 from "../assets/bluewaves2.png";
 import edrive from "../assets/edrive.png";
 import edrivers from "../assets/edrivers.png";     // not used yet, but imported
 import edrivers2 from "../assets/edrivers2.png";   // not used yet
-import ecars from "../assets/ecars.png"
-import ecars2 from "../assets/ecars2.png"
+import ecars from "../assets/efixit.png"
+import ecars2 from "../assets/efixit2.png"
 export const projects = [
   {
     id: 1,
-    title: "Run-tinz (Food & Logistics)",
+    title: "Estores",
     description:
-      "A comprehensive microservices-based real-time food and item delivery platform inspired by Chowdeck. Connects customers with restaurants/vendors and empowers riders. Features include menu browsing, cart, secure checkout, vendor dashboard, rider real-time tracking, analytics, Socket.IO notifications, JWT multi-role auth (customer/vendor/rider), and QR code scanning.",
-    shortDesc: "Real-time food delivery platform with customer, vendor & rider dashboards + live tracking",
+      "A comprehensive microservices-based real-time ecommerce and item delivery platform. Connects customers with sellers/vendors and empowers riders. Features include menu browsing, cart, secure checkout, vendor dashboard, rider real-time tracking, analytics, Socket.IO notifications, JWT multi-role auth (customer/vendor/rider), and QR code scanning.",
+    shortDesc: "Real-time ecommerce platform with customer, vendor & rider dashboards + live tracking",
     image: chowdeck,
     image2: chowdeck2,
     tech: ["React", "TypeScript", "Node.js", "MongoDB", "Socket.IO", "Paystack", "Framer Motion", "QR Scanner"],
-    live: "https://logistics-restorant.edrive.ng/",
+    live: "https://estores.ng/",
     github: "#",
   },
   {
@@ -45,12 +46,12 @@ export const projects = [
   },
   {
     id: 3,
-    title: "HR Management System",
+    title: "Pinnaclehub",
     description:
-      "Complete HR solution allowing admins to manage employees, auto-generate unique staff IDs, and enable employees to view profiles, receive updates, request leaves (with auto-generated letters), and more.",
-    shortDesc: "Employee management system with auto ID generation and leave requests",
+      "PinnacleHub is an all-in-one school management platform built for Africa's growing education sector, offering 14 fully integrated modules ",
+    shortDesc: "An all-in-one school management platform",
     image: hr,
-    image2: hr,
+    image2: hr2,
     tech: ["React", "Node.js", "MongoDB", "Framer Motion"],
     live: "#",
     github: "#",
@@ -81,14 +82,14 @@ export const projects = [
   },
   {
     id: 6,
-    title: "E-Job",
+    title: "Job Link",
     description:
       "Full-featured job marketplace with employer job posting, applicant tracking, virtual interviews (video call), digital staff ID cards, job application tracking, and employer staff management.",
     shortDesc: "Job board with virtual interviews and digital ID cards",
     image: screenshot,
     image2: ejob,
     tech: ["React", "Node.js", "MongoDB", "Socket.IO", "WebRTC", "Framer Motion", "QR Code"],
-    live: "https://ejobs.com.ng/",
+    live: "https://joblink.ng/",
     github: "#",
   },
   {
@@ -117,14 +118,14 @@ export const projects = [
   },
   {
     id: 8,
-   title: "E-Cars",
+   title: "Efixit",
     description:
-      "it is a platform meant for car dealers to connect with buyers, it  allows the users to value their assets, connect with verified car part sellers, report a stolen vehicle, report a stolen vehicles, compare car features, and also allows car auctioning",
-    shortDesc: "a platform for car dealers to connect with buyers",
+      "service marketplace connecting clients with artisans/technicians. The hire lifecycle system (request → negotiation → payment → completion → report), including hire codes, completion flows for both client and provider sides",
+    shortDesc: "a platform for Users to connect with service providers",
     image: ecars,
     image2: ecars2,
     tech: ["React", "Node.js", "Tailwind CSS", "Framer Motion", "Socket.IO"],
-    live: "https://ecars.ng/",
+    live: "https://efixit.ng/",
     github: "#",
   },
 
