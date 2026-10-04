@@ -41,7 +41,7 @@ export const projects = [
     image: flexipay,
     image2: flexipay2,
     tech: ["React", "Node.js", "MongoDB", "Paystack", "Socket.IO", "Framer Motion", "QR Scanner"],
-    live: "https://flexipay.taskflow.com.ng/",
+    live: "https://wallet-system-8hui.vercel.app/",
     github: "#",
   },
   {

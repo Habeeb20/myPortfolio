@@ -5,6 +5,7 @@ import Projects from './pages/Project'
 import Skills from './pages/Skills'
 import Experience from './pages/Experience'
 import Footer from './pages/Footer'
+import MobileApps from './pages/MobileApp'
 const App = () => {
   return (
     <div>
@@ -12,6 +13,8 @@ const App = () => {
   <Navbar />
   <Hero/>
   <Projects />
+
+  <MobileApps/>
   <Skills/>
   <Experience/>
   <Footer />
