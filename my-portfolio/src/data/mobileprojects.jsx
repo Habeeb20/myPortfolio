@@ -23,8 +23,36 @@ import jobSettings from "../assets/mobile/joblink01.jpeg"
 
 import jlMessages from "../assets/mobile/joblink-messages.jpeg";
 import jlAccount from "../assets/mobile/joblink-account.jpeg";
+import wallet1 from "../assets/mobile/wallet1.jpeg"
+import wallet2 from "../assets/mobile/wallet2.jpeg"
+import wallet3 from "../assets/mobile/wallet3.jpeg"
+import wallet4 from "../assets/mobile/wallet4.jpeg"
 
 export const mobileApps = [
+    {
+    id: "flexipay",
+    name: "FlexiPay",
+    tagline: "Bills, airtime and transfers without the queue.",
+    accent: "#16a34a",
+    onAccent: "#ffffff",
+    platforms: ["Android", "iOS"],
+    description:
+      "The mobile version of the FlexiPay fintech platform: airtime and data top-ups, cable TV, electricity bills and peer-to-peer transfers.",
+    ai: "An AI assistant helps you pay bills and understand your spending.", // edit to match what your AI does
+    features: [
+      "Airtime and data top-up",
+      "Cable TV and electricity payments",
+      "Peer-to-peer transfers",
+      "Paystack-powered funding",
+    ],
+    tech: ["React Native", "Expo", "Node.js", "Paystack", "AI Assistant"],
+    web: "https://wallet-system-8hui.vercel.app/",
+    screens: [ { src: wallet1, label: "Dashboard" },
+       { src: wallet2, label: "Bill payment" },
+       { src: wallet3, label: "Qyick Action" },
+       { src: wallet4, label: "Qyick Action" },
+    ], // add screenshots later: { src: import, label: "..." }
+  },
   {
     id: "nairawise",
     name: "NairaWise",
@@ -101,26 +129,7 @@ export const mobileApps = [
       { src: lmLogin, label: "Welcome back" },
     ],
   },
-  {
-    id: "flexipay",
-    name: "FlexiPay",
-    tagline: "Bills, airtime and transfers without the queue.",
-    accent: "#16a34a",
-    onAccent: "#ffffff",
-    platforms: ["Android", "iOS"],
-    description:
-      "The mobile version of the FlexiPay fintech platform: airtime and data top-ups, cable TV, electricity bills and peer-to-peer transfers.",
-    ai: "An AI assistant helps you pay bills and understand your spending.", // edit to match what your AI does
-    features: [
-      "Airtime and data top-up",
-      "Cable TV and electricity payments",
-      "Peer-to-peer transfers",
-      "Paystack-powered funding",
-    ],
-    tech: ["React Native", "Expo", "Node.js", "Paystack", "AI Assistant"],
-    web: "https://wallet-system-8hui.vercel.app/",
-    screens: [], // add screenshots later: { src: import, label: "..." }
-  },
+
   {
     id: "joblink",
     name: "Job Link",
