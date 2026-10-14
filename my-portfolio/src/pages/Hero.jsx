@@ -30,6 +30,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ArrowDownIcon, XMarkIcon,  } from "@heroicons/react/24/outline";
 import { toast } from "sonner";
 import im from "../assets/myImage.jpeg";
+import im2 from "../assets/habeeb.jpeg"
 
 export default function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -160,7 +161,7 @@ export default function Hero() {
         >
           <div className="absolute inset-0 bg-primary/30 rounded-full blur-3xl scale-110" />
           <motion.img
-            src={im}
+            src={im2}
             alt="Habeeb"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 120 }}
